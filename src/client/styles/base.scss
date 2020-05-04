@@ -1,0 +1,19 @@
+$font-stack: Helvetica, san-serif;
+$color: #669900;
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font: $font-stack;
+  color: $color;
+}
+
+main {
+  flex: 2;
+}
+
+section {
+  max-width: 800px;
+  margin: 50px auto;
+}
